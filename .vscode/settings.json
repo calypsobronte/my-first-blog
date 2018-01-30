@@ -1,0 +1,3 @@
+{
+    "python.pythonPath": "${workspaceFolder}/calypso/bin/python"
+}
