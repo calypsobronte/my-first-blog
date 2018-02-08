@@ -5,6 +5,14 @@
 </head>
 
 <body>
+    {% for post in posts %}
+    <div>
+        <p>published: {{ post.published_date }}</p>
+        <h1><a href="">{{ post.title }}</a></h1>
+        <p>{{ post.text|linebreaksbr }}</p>
+    </div>
+    {% endfor %} {{ posts }} {% for post in posts %} {{ post }} {% endfor %}
+
     <p>Hi there!</p>
     <p>It works!</p>
     <em>Mi primera web en python en Django Girls 🙋👧 : Calypso Bronte :)</em>
